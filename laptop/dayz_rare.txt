@@ -1,0 +1,22 @@
+# Ickza: DayZ loot drawn gold and bigger, past the loot range, and kept by "Valuable loot only".
+# One classname per line, case doesn't matter. A trailing * matches any ending (M4A1* = M4A1, M4A1_Green ...).
+# The classname is what Ickza prints above a loot marker. Edit freely; restart Ickza to reload.
+
+# Weapons
+M4A1*
+SVD*
+FAL*
+VSS*
+ASVAL*
+Aug*
+FAMAS*
+M14*
+SSG82*
+M79*
+
+# Gear
+NVGoggles*
+NVGHeadstrap*
+Ghillie*
+PlateCarrier*
+BallisticHelmet*

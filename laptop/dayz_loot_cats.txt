@@ -1,0 +1,14 @@
+# Ickza: put DayZ loot into a different radar category than the built-in rules choose.
+# One rule per line: <category> <classname>. Case doesn't matter.
+# A trailing * matches any ending (Mag_STANAG* = Mag_STANAG_30Rnd, Mag_STANAG_60Rnd ...),
+# a leading * matches anywhere inside (*Ghillie* = any classname containing "ghillie").
+# The classname is what Ickza prints next to a loot marker. Restart Ickza to reload.
+# dayz_rare.txt still wins over this file.
+#
+# Categories: gun ammo attach melee explosive medical food drink tool clothing bag vehicle base other
+#
+# Examples:
+# tool    Hatchet
+# melee   WoodAxe
+# food    *Fillet*
+# base    Fence*
